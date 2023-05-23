@@ -27,12 +27,8 @@ def health_check(request: HttpRequest):
     return Response()
 
 
-def index_view(request: HttpRequest):
-    return render(request, 'whack_blob/index.html')
-
 
 urlpatterns = [
-    path('', index_view),
     path('admin/', admin.site.urls),
 
     path('api/documentation/',

@@ -81,7 +81,7 @@ REST_FRAMEWORK = {
 
 
 AUTHENTICATION_BACKENDS = (
-   'users.custom_auth_backend.CustomAuthBackend',
+    'users.custom_auth_backend.CustomAuthBackend',
 )
 
 
@@ -178,4 +178,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'users.User'
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ORIGIN_WHITELIST = [
+    'http://whackablob.vercel.app',
+    'https://whackablob.vercel.app',
+    'http://whack-man.herokuapp.com',
+    'https://whack-man.herokuapp.com',
+]

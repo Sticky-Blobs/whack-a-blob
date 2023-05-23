@@ -183,4 +183,12 @@ CORS_ORIGIN_WHITELIST = [
     'https://whackablob.vercel.app',
     'http://whack-man.herokuapp.com',
     'https://whack-man.herokuapp.com',
+    'http://eastereggs.stickyblobs.com',
+    'https://eastereggs.stickyblobs.com',
+    'http://zeta.eastereggs.stickyblobs.com',
+    'https://zeta.eastereggs.stickyblobs.com',
+    'http://zeta.stickyblobs.com',
+    'https://zeta.stickyblobs.com',
+    'http://stickyblobs.com',
+    'https://stickyblobs.com',
 ]

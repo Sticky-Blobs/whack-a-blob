@@ -190,5 +190,6 @@ CORS_ORIGIN_WHITELIST = [
     'http://zeta.stickyblobs.com',
     'https://zeta.stickyblobs.com',
     'http://stickyblobs.com',
-    'https://stickyblobs.com',
+    'https://stickyblobs.com'
+    'https://funny-speculoos-23170f.netlify.app',
 ]
